@@ -49,7 +49,7 @@ router.post('/login', async (req, res) => {
 // Profile route
 router.get('/profile', authMiddleware, async (req, res) => {
   try {
-    const user = await User.findById(req.user.id).select('-password');
+    const user = await User.findById(req.user._id).select('-password');
     res.json(user);
   } catch (err) {
     res.status(500).send('Server error');
