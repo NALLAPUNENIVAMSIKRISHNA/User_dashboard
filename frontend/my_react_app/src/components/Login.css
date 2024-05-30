@@ -1,0 +1,59 @@
+/* src/components/Login.css */
+.login-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-form label {
+    margin-bottom: 5px;
+    text-align: left;
+  }
+  
+  .login-form input {
+    margin-bottom: 15px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .signin-button {
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .signin-button:hover {
+    background-color: darkgreen;
+  }
+  
+  .signup-button {
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .signup-button:hover {
+    background-color: darkred;
+  }
+  

@@ -1,0 +1,48 @@
+/* src/components/AdminDashboard.css */
+.admin-dashboard {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .counts {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .count-box {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    width: 150px;
+  }
+  
+  .count-box h2 {
+    margin: 0;
+    font-size: 2em;
+  }
+  
+  .count-box p {
+    margin: 10px 0 0;
+    font-size: 1em;
+  }
+  
+  table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+  }
+  
+  table, th, td {
+    border: 1px solid #ccc;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f4f4f4;
+  }
+  
